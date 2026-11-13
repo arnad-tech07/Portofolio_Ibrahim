@@ -1,0 +1,154 @@
+/* ========================================================
+   CARD VIDEO DENGAN JUDUL & DESKRIPSI CSS - IBRAHIM
+   ======================================================== */
+
+.videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 32px;
+}
+
+.video-item-card {
+    background: #ffffff;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: var(--transition);
+}
+
+.video-item-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+    border-color: #93c5fd;
+}
+
+/* 16:9 Video Embed Player Container */
+.video-player-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    background: #090d16;
+    overflow: hidden;
+}
+
+.video-player-wrapper iframe,
+.video-player-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-duration-badge {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background: rgba(0, 0, 0, 0.85);
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.video-category-tag {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(37, 99, 235, 0.9);
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    z-index: 5;
+    pointer-events: none;
+}
+
+/* Card Content: Judul & Deskripsi Video */
+.video-card-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.video-card-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 10px;
+    transition: var(--transition);
+}
+
+.video-item-card:hover .video-card-title {
+    color: var(--primary);
+}
+
+.video-card-desc {
+    color: #64748b;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    flex: 1;
+}
+
+.video-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.video-badge-author {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    color: #475569;
+    font-weight: 600;
+}
+
+.video-badge-author img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btn-video-watch {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    background: rgba(37, 99, 235, 0.08);
+    color: var(--primary);
+    border-radius: var(--radius-sm);
+    font-size: 0.82rem;
+    font-weight: 700;
+    transition: var(--transition);
+}
+
+.btn-video-watch:hover {
+    background: var(--primary);
+    color: #ffffff;
+}
+
+@media (max-width: 576px) {
+    .videos-grid {
+        grid-template-columns: 1fr;
+    }
+}
+

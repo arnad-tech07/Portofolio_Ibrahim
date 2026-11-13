@@ -1,0 +1,223 @@
+/* ========================================================
+   CMS LOGIN PAGE CSS - IBRAHIM
+   ======================================================== */
+
+.auth-body {
+    min-height: 100vh;
+    background: #090d16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ambient glow blobs */
+.auth-glow-blob-1 {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 400px;
+    height: 400px;
+    background: rgba(37, 99, 235, 0.25);
+    border-radius: 50%;
+    filter: blur(120px);
+    pointer-events: none;
+}
+
+.auth-glow-blob-2 {
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: rgba(6, 182, 212, 0.2);
+    border-radius: 50%;
+    filter: blur(120px);
+    pointer-events: none;
+}
+
+.auth-card {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 42px 36px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.auth-logo-badge {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto 16px;
+    background: var(--accent-gradient);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.6rem;
+    box-shadow: 0 0 25px var(--primary-glow);
+}
+
+.auth-title {
+    color: #ffffff;
+    font-size: 1.65rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.auth-subtitle {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.auth-form .form-group {
+    margin-bottom: 20px;
+}
+
+.auth-form label {
+    display: block;
+    color: #cbd5e1;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.auth-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.auth-eye-btn {
+    position: absolute;
+    right: 14px;
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.auth-eye-btn:hover {
+    color: #ffffff;
+}
+
+.auth-input-icon {
+    position: absolute;
+    left: 16px;
+    color: #64748b;
+    font-size: 1rem;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 13px 16px 13px 44px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-sm);
+    color: #ffffff;
+    font-size: 0.95rem;
+    outline: none;
+    transition: var(--transition);
+}
+
+.auth-input:focus {
+    border-color: #38bdf8;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.15);
+}
+
+.auth-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.auth-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.btn-auth-submit {
+    width: 100%;
+    padding: 14px;
+    background: var(--accent-gradient);
+    color: #ffffff;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-auth-submit:hover {
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.6);
+    transform: translateY(-2px);
+}
+
+/* Demo Credentials Box */
+.auth-credentials-hint {
+    margin-top: 24px;
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px dashed rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius-sm);
+    font-size: 0.8rem;
+    color: #94a3b8;
+}
+
+.auth-credentials-hint p {
+    margin-bottom: 4px;
+}
+
+.auth-credentials-hint strong {
+    color: #38bdf8;
+}
+
+.auth-footer-back {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.auth-footer-back a {
+    color: #94a3b8;
+    font-size: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.auth-footer-back a:hover {
+    color: #ffffff;
+}
+

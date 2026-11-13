@@ -1,0 +1,94 @@
+/* ========================================================
+   APA KATA MEREKA (TESTIMONI) CSS - IBRAHIM
+   ======================================================== */
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 30px;
+}
+
+.testi-card {
+    background: #ffffff;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: var(--transition);
+}
+
+.testi-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 35px rgba(15, 23, 42, 0.08);
+    border-color: #93c5fd;
+}
+
+.testi-quote-watermark {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 3rem;
+    color: #f1f5f9;
+    pointer-events: none;
+    line-height: 1;
+}
+
+.testi-rating-stars {
+    display: flex;
+    gap: 4px;
+    color: #f59e0b;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.testi-quote-text {
+    color: #334155;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.testi-client-profile {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-top: 18px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.testi-avatar-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #2563eb;
+}
+
+.testi-client-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.testi-client-role {
+    font-size: 0.8rem;
+    color: #64748b;
+    font-weight: 500;
+}
+
+@media (max-width: 576px) {
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+    .testi-card {
+        padding: 24px;
+    }
+}
+

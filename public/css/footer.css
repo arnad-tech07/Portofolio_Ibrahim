@@ -1,0 +1,152 @@
+/* ========================================================
+   FOOTER, COPYRIGHT & MEDIA SOSIAL CSS - IBRAHIM
+   ======================================================== */
+
+.site-footer {
+    background: #090d16;
+    color: #94a3b8;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 60px 0 0;
+    margin-top: 50px;
+    font-size: 0.92rem;
+}
+
+.footer-top-grid {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr 1.4fr;
+    gap: 40px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.footer-brand-title {
+    color: #ffffff;
+    font-size: 1.35rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-brand-desc {
+    line-height: 1.7;
+    margin-bottom: 22px;
+    color: #94a3b8;
+    max-width: 360px;
+}
+
+/* Social Media Icons */
+.footer-social-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.social-icon-btn {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    transition: var(--transition);
+}
+
+.social-icon-btn:hover {
+    transform: translateY(-3px);
+    color: #ffffff;
+}
+
+.social-icon-btn.github:hover { background: #24292e; border-color: #24292e; }
+.social-icon-btn.linkedin:hover { background: #0077b5; border-color: #0077b5; }
+.social-icon-btn.instagram:hover { background: #e1306c; border-color: #e1306c; }
+.social-icon-btn.youtube:hover { background: #ff0000; border-color: #ff0000; }
+.social-icon-btn.whatsapp:hover { background: #25d366; border-color: #25d366; }
+.social-icon-btn.twitter:hover { background: #1da1f2; border-color: #1da1f2; }
+
+/* Footer Link Columns */
+.footer-col-title {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.footer-col-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background: var(--primary);
+}
+
+.footer-links-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-links-list a {
+    color: #94a3b8;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-links-list a:hover {
+    color: #38bdf8;
+    transform: translateX(4px);
+}
+
+/* Footer Bottom Copyright Bar */
+.footer-bottom-bar {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+.footer-copyright-text strong {
+    color: #cbd5e1;
+}
+
+.footer-credit-text {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer-credit-text i {
+    color: #ef4444;
+}
+
+@media (max-width: 992px) {
+    .footer-top-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-top-grid {
+        grid-template-columns: 1fr;
+    }
+    .footer-bottom-bar {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+}
+

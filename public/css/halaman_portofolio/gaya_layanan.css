@@ -1,0 +1,52 @@
+/* Bagian Layanan Jasa (Grid Layout) */
+.category-title{font-family:Manrope;color:#17243c;font-size:28px;margin:20px 0}.section>.service-grid{margin-bottom:55px}.service-card ul{list-style:none;padding:0;margin-top:18px;color:#697386;font-size:13px}.service-card li{margin:9px 0}.service-card li i{color:#3157d5;margin-right:8px}.bagian-layanan {
+    max-width: 1100px;
+    margin: -40px auto 40px auto; /* Sedikit naik menimpa header agar modern */
+    padding: 0 20px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.bagian-layanan h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+/* Kontainer Grid untuk Kartu Layanan */
+.bagian-layanan-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.kotak-layanan {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 35px 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    border-top: 4px solid #2563eb;
+    text-align: left;
+}
+
+.kotak-layanan:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 35px rgba(37, 99, 235, 0.1);
+}
+
+.kotak-layanan h3 {
+    color: #1e293b;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.kotak-layanan p {
+    color: #64748b;
+    font-size: 0.95rem;
+}

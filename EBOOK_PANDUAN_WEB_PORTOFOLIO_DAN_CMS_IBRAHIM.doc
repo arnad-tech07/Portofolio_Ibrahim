@@ -1,0 +1,549 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>E-Book Panduan Komprehensif: Sistem Digital CV Portofolio & CMS Modern - Ibrahim</title>
+<!--[if gte mso 9]>
+<xml>
+  <w:WordDocument>
+    <w:View>Print</w:View>
+    <w:Zoom>100</w:Zoom>
+    <w:DoNotOptimizeForBrowser/>
+  </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  @page {
+    size: 21.0cm 29.7cm; /* A4 */
+    margin: 2.2cm 2.0cm 2.2cm 2.0cm;
+    mso-page-orientation: portrait;
+  }
+  @page Section1 {
+    mso-header-margin: 1.0cm;
+    mso-footer-margin: 1.0cm;
+  }
+  div.Section1 {
+    page: Section1;
+  }
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.5;
+    color: #1e293b;
+    background-color: #ffffff;
+  }
+  .cover-page {
+    text-align: center;
+    padding: 60pt 20pt 40pt 20pt;
+    page-break-after: always;
+  }
+  .cover-tag {
+    background-color: #0284c7;
+    color: #ffffff;
+    padding: 4pt 14pt;
+    font-size: 10pt;
+    font-weight: 700;
+    border-radius: 20pt;
+    display: inline-block;
+    letter-spacing: 1pt;
+    text-transform: uppercase;
+  }
+  .cover-title {
+    font-size: 26pt;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1.25;
+    margin-top: 20pt;
+    margin-bottom: 12pt;
+  }
+  .cover-subtitle {
+    font-size: 13pt;
+    color: #475569;
+    line-height: 1.45;
+    max-width: 500pt;
+    margin: 0 auto 30pt auto;
+  }
+  .cover-author-box {
+    background-color: #f8fafc;
+    border: 1pt solid #cbd5e1;
+    border-radius: 8pt;
+    padding: 16pt;
+    max-width: 420pt;
+    margin: 20pt auto;
+    text-align: left;
+  }
+  
+  h1 { font-size: 18pt; font-weight: 800; color: #1e3a8a; border-bottom: 2pt solid #2563eb; padding-bottom: 5pt; margin-top: 24pt; margin-bottom: 10pt; page-break-before: always; }
+  h2 { font-size: 13pt; font-weight: 700; color: #0f172a; margin-top: 16pt; margin-bottom: 6pt; }
+  h3 { font-size: 11pt; font-weight: 700; color: #2563eb; margin-top: 10pt; margin-bottom: 4pt; }
+  p { margin-top: 0; margin-bottom: 8pt; text-align: justify; }
+  ul, ol { margin-top: 4pt; margin-bottom: 8pt; padding-left: 20pt; }
+  li { margin-bottom: 4pt; }
+  
+  table { width: 100%; border-collapse: collapse; margin-top: 8pt; margin-bottom: 12pt; }
+  table.bordered td, table.bordered th { border: 1pt solid #cbd5e1; padding: 6pt 8pt; vertical-align: top; }
+  table.bordered th { background-color: #f1f5f9; font-weight: 700; color: #0f172a; text-align: left; }
+  
+  .code-block {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9pt;
+    padding: 10pt 12pt;
+    border-radius: 4pt;
+    margin: 8pt 0;
+    line-height: 1.4;
+    white-space: pre-wrap;
+  }
+  .info-box {
+    background-color: #eff6ff;
+    border-left: 3.5pt solid #2563eb;
+    padding: 8pt 12pt;
+    margin: 10pt 0;
+  }
+  .tip-box {
+    background-color: #f0fdf4;
+    border-left: 3.5pt solid #16a34a;
+    padding: 8pt 12pt;
+    margin: 10pt 0;
+  }
+  .warning-box {
+    background-color: #fffbeb;
+    border-left: 3.5pt solid #d97706;
+    padding: 8pt 12pt;
+    margin: 10pt 0;
+  }
+</style>
+</head>
+<body>
+<div class="Section1">
+
+  <!-- COVER PAGE -->
+  <div class="cover-page">
+    <div class="cover-tag">E-BOOK RESMI & PANDUAN LENGKAP</div>
+    <div class="cover-title">
+      ARSITEKTUR & PANDUAN PENGELOLAAN<br>
+      <span style="color: #2563eb;">SISTEM DIGITAL CV PORTOFOLIO & CMS</span>
+    </div>
+    <div class="cover-subtitle">
+      Panduan Lengkap Merancang, Mengembangkan, dan Mengoperasikan Website Portofolio Interaktif, Layanan Pembuatan Web, Pelatihan IT, dan Panel Kendali Konten (CMS) Berbasis Laravel 12 & PHP 8.4
+    </div>
+
+    <div class="cover-author-box">
+      <table width="100%" style="border-collapse: collapse; margin: 0;">
+        <tr>
+          <td>
+            <strong style="font-size: 11pt; color: #0f172a;">Penulis:</strong><br>
+            <span style="font-size: 13pt; font-weight: 800; color: #1e3a8a;">Ibrahim, S.Kom.</span><br>
+            <span style="font-size: 9.5pt; color: #64748b;">Senior Fullstack Web Developer, Web Architect & Professional IT Trainer</span>
+          </td>
+          <td align="right" width="120" style="vertical-align: middle;">
+            <div style="background-color: #e0f2fe; color: #0369a1; padding: 6pt; border-radius: 4pt; font-weight: 700; text-align: center; font-size: 9pt;">
+              EDISI 2026<br><span style="font-size: 7.5pt;">REVISI TERAKHIR</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="padding-top: 10pt; font-size: 8.5pt; color: #64748b; border-top: 1pt solid #e2e8f0; margin-top: 8pt;">
+            <strong>Proyek:</strong> Portofolio & CMS Ibrahim &nbsp;|&nbsp; 
+            <strong>Teknologi:</strong> Laravel 12, PHP 8.4, Modular Blade & CSS &nbsp;|&nbsp; 
+            <strong>Status:</strong> Siap Produksi
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div style="margin-top: 40pt; font-size: 9pt; color: #94a3b8;">
+      Diterbitkan oleh Tim Rekayasa Ibrahim Digital Platform &bull; Hak Cipta Dilindungi Undang-Undang
+    </div>
+  </div>
+
+  <!-- DAFTAR ISI -->
+  <h1 style="page-break-before: always;">Daftar Isi Buku Panduan</h1>
+  <table class="bordered">
+    <tr style="background-color: #f8fafc;">
+      <th width="15%">Bagian</th>
+      <th width="75%">Bab & Topik Pembahasan</th>
+      <th width="10%">Halaman</th>
+    </tr>
+    <tr><td><strong>Prakata</strong></td><td>Kata Pengantar Penulis & Latar Belakang Digital Portofolio</td><td>3</td></tr>
+    <tr><td><strong>Bab 1</strong></td><td>Visi, Konsep & Manfaat Portofolio Digital Terintegrasi CMS</td><td>4</td></tr>
+    <tr><td><strong>Bab 2</strong></td><td>Arsitektur Sistem, Struktur Direktori & Desain Modular (CSS Terpisah)</td><td>7</td></tr>
+    <tr><td><strong>Bab 3</strong></td><td>Fitur-Fitur Halaman Publik (Front-End Showcase & User Experience)</td><td>11</td></tr>
+    <tr><td><strong>Bab 4</strong></td><td>Panduan Pengelolaan Panel Kendali CMS (Control Management System) Pemilik</td><td>16</td></tr>
+    <tr><td><strong>Bab 5</strong></td><td>Manajemen File Upload Berukuran Besar (JPG, PNG, SVG, PDF hingga 20MB)</td><td>22</td></tr>
+    <tr><td><strong>Bab 6</strong></td><td>Panduan Instalasi, Konfigurasi Environment Lokal & Database Seeder</td><td>25</td></tr>
+    <tr><td><strong>Bab 7</strong></td><td>Panduan Deployment ke Server Production (Cloud, VPS, Nginx, SSL)</td><td>29</td></tr>
+    <tr><td><strong>Bab 8</strong></td><td>Standar Keamanan, Proteksi Serangan Web & Best Practices PHP 8.4</td><td>33</td></tr>
+    <tr><td><strong>Bab 9</strong></td><td>Kurikulum Lengkap Pelatihan Pemrograman Web (Jasa Training Ibrahim)</td><td>37</td></tr>
+    <tr><td><strong>Bab 10</strong></td><td>Standar Prosedur Operasional (SOP) Jasa Pembuatan Website Profesional</td><td>41</td></tr>
+    <tr><td><strong>Lampiran</strong></td><td>FAQ, Skema Basis Data, Kredensial Default & Kontak Bantuan</td><td>45</td></tr>
+  </table>
+
+  <!-- PRAKATA -->
+  <h1>Kata Pengantar & Prakata Penulis</h1>
+  <p>
+    Buku panduan (E-Book) ini disusun secara sistematis dan menyeluruh untuk memberikan panduan referensi utama mengenai rancang bangun dan tata kelola sistem <strong>Digital CV Portofolio, Portal Jasa Pembuatan Website, Pelatihan IT, serta Panel Kendali CMS (Control Management System)</strong> yang dikembangkan untuk profesional teknologi, <strong>Ibrahim, S.Kom.</strong>
+  </p>
+  <p>
+    Di era transformasi digital saat ini, memiliki portofolio bukan lagi sekadar mengirimkan dokumen PDF atau dokumen cetak statis kepada klien atau perekrut. Para pemangku kepentingan, klien korporasi, serta calon peserta pelatihan membutuhkan bukti nyata yang dapat diverifikasi secara langsung: kecepatan loading website, kerapian tata letak visual, responsivitas di layar ponsel pintar, kualitas kode sumber, hingga kemudahan pengelolaan konten secara dinamis melalui sistem manajemen konten yang mandiri dan aman.
+  </p>
+  <p>
+    Buku ini ditulis bagi pemilik sistem, developer yang ingin memodifikasi atau memperluas fitur sistem ini, maupun bagi peserta pelatihan yang ingin mempelajari standar industri modern dalam membangun web skala profesional menggunakan teknologi <strong>Laravel 12</strong>, <strong>PHP 8.4</strong>, dan <strong>Arsitektur CSS Modular Terpisah</strong>.
+  </p>
+
+  <!-- BAB 1 -->
+  <h1>Bab 1: Visi, Konsep & Manfaat Portofolio Digital Terintegrasi CMS</h1>
+  <h2>1.1 Mengapa Memilih Pendekatan Hybrid: Portofolio Publik + CMS?</h2>
+  <p>
+    Kebanyakan website portofolio tradisional memiliki salah satu dari dua kelemahan fatal:
+  </p>
+  <ul>
+    <li><strong>Portofolio Statis:</strong> Cepat di-deploy, namun setiap kali pemilik memiliki sertifikat baru, menyelesaikan proyek baru, atau ingin mengubah tarif jasa, pemilik harus membuka editor kode dan merilis ulang aplikasi ke server.</li>
+    <li><strong>Portofolio Berbasis CMS Siap Pakai Berat (seperti WordPress):</strong> Mudah diisi konten, namun sering kali lambat, rentan terhadap celah keamanan plugin pihak ketiga, dan desain tampilannya generik atau kaku.</li>
+  </ul>
+  <p>
+    Solusi yang dihadirkan dalam aplikasi ini adalah <strong>Tailor-Made Framework Application (Laravel 12)</strong>: sebuah sistem kustom yang menggabungkan performa kilat (PageSpeed 95+), keamanan kelas perbankan, kebebasan kustomisasi CSS terpisah di setiap halaman, serta kemudahan kontrol penuh melalui <em>Admin Control Panel CMS</em> yang dirancang khusus untuk pemilik.
+  </p>
+
+  <h2>1.2 Nilai Tambah Komersial: Dual-Role (Portofolio + Jasa Bisnis)</h2>
+  <p>
+    Sistem ini tidak hanya menampilkan riwayat hidup, tetapi juga bertindak sebagai mesin akuisisi klien digital dengan menyediakan:
+  </p>
+  <ol>
+    <li><strong>Pameran Reputasi (Social Proof):</strong> Testimoni klien nyata dengan rating bintang dan nama instansi.</li>
+    <li><strong>Pilihan Paket Jasa Pembuatan Website:</strong> Dari Company Profile, E-Commerce, hingga Aplikasi Web Kustom dengan daftar fitur transparan dan tombol order langsung.</li>
+    <li><strong>Program Pelatihan (Academy & Mentoring):</strong> Penawaran training dari kelas pemula hingga mentoring privat 1-on-1 dan corporate training.</li>
+    <li><strong>Pintu Komunikasi Terpadu:</strong> Formulir kontak dengan filter jenis layanan, integrasi pesan langsung ke WhatsApp, Google Maps lokasi kerja, serta kotak pesan masuk di panel CMS.</li>
+  </ol>
+
+  <!-- BAB 2 -->
+  <h1>Bab 2: Arsitektur Sistem, Direktori & Desain Modular (CSS Terpisah)</h1>
+  <h2>2.1 Diagram Arsitektur Aplikasi</h2>
+  <p>
+    Aplikasi mengikuti standar arsitektur <strong>Model-View-Controller (MVC)</strong> dengan pemisahan peran yang tegas:
+  </p>
+  <div class="code-block">
+[Pengunjung Publik] ---> [PortofolioController] ---> [Eloquent Models] ---> [SQLite / MySQL DB]
+                                   |                                
+                                   v                                
+                           [Blade Partials] + [Modular CSS]         
+
+[Pemilik / Admin]   ---> [AuthController / CmsController] ---> [Storage /app/public]
+                                   |
+                                   v
+                          [CMS Blade Panels] + [cms.css]
+  </div>
+
+  <h2>2.2 Konsep CSS Terpisah per Halaman (Modular Stylesheets)</h2>
+  <p>
+    Salah satu keunggulan estetika dan arsitektur aplikasi ini adalah penolakan terhadap <em>monolithic stylesheet</em> yang bercampur aduk. Setiap komponen halaman memiliki file CSS mandiri di dalam folder <code>public/css/</code>:
+  </p>
+  <table class="bordered">
+    <tr>
+      <th width="30%">File CSS</th>
+      <th width="35%">Komponen / View Terkait</th>
+      <th width="35%">Tanggung Jawab Visual</th>
+    </tr>
+    <tr><td><code>layout.css</code></td><td><code>layouts/app.blade.php</code></td><td>Grid dasar, header atas tetap, sidebar kiri, tipografi global</td></tr>
+    <tr><td><code>carousel.css</code></td><td><code>partials/carousel.blade.php</code></td><td>Slide banner animasi, gradient dinamis, tombol navigasi dot/arrow</td></tr>
+    <tr><td><code>cv.css</code></td><td><code>partials/cv_profile.blade.php</code></td><td>Timeline pengalaman, progress bar skill, kartu sertifikat & pendidikan</td></tr>
+    <tr><td><code>layanan.css</code></td><td><code>partials/layanan.blade.php</code></td><td>Grid kartu paket jasa web & training, badge harga, checklist fitur</td></tr>
+    <tr><td><code>dokumentasi.css</code></td><td><code>partials/dokumentasi_cards.blade.php</code></td><td>Kartu portofolio proyek, hover overlay zoom gambar, badge teknologi</td></tr>
+    <tr><td><code>video.css</code></td><td><code>partials/video_cards.blade.php</code></td><td>Kartu showcase video YouTube, badge durasi, popup modal interaktif</td></tr>
+    <tr><td><code>testimoni.css</code></td><td><code>partials/testimoni.blade.php</code></td><td>Kartu kutipan testimonial, rating bintang emas, avatar lingkaran</td></tr>
+    <tr><td><code>kontak_maps.css</code></td><td><code>partials/kontak.blade.php</code>, <code>maps.blade.php</code></td><td>Formulir kontak modern, iframe Google Maps responsif, info jam kerja</td></tr>
+    <tr><td><code>footer.css</code></td><td><code>partials/footer.blade.php</code></td><td>Footer copyright, navigasi cepat, ikon medsos bersinar (glow)</td></tr>
+    <tr><td><code>auth.css</code></td><td><code>auth/login.blade.php</code></td><td>Form login elegan, glassmorphism card, toggle icon mata password</td></tr>
+    <tr><td><code>cms.css</code></td><td><code>layouts/cms.blade.php</code></td><td>Tata letak admin panel, sidebar gelap, form input, tabel CRUD</td></tr>
+  </table>
+
+  <!-- BAB 3 -->
+  <h1>Bab 3: Fitur-Fitur Halaman Publik (Front-End Showcase)</h1>
+  <h2>3.1 Header Tetap di Atas (Fixed Sticky Header)</h2>
+  <p>
+    Header berada di posisi teratas halaman dengan efek <em>backdrop-filter blur</em> semi-transparan. Berfungsi sebagai jangkar navigasi utama, memuat logo personal Ibrahim, status ketersediaan (*Tersedia untuk Jasa & Training*), tautan cepat WhatsApp, tombol download CV langsung, serta tombol pintas login pemilik CMS.
+  </p>
+
+  <h2>3.2 Sidebar Sebelah Kiri (Left Navigation Sidebar)</h2>
+  <p>
+    Sidebar kiri memberikan navigasi intuitif ala aplikasi modern (*dashboard-style*). Dilengkapi dengan foto profil Ibrahim, nama, spesialisasi, tautan menu dengan ikon FontAwesome, serta widget ringkasan statistik (7+ Tahun Pengalaman, 120+ Proyek, 500+ Siswa). Di layar smartphone/tablet, sidebar ini responsif dan dapat dibuka-tutup dengan lancar.
+  </p>
+
+  <h2>3.3 Slide Banner Carousel Interaktif</h2>
+  <p>
+    Komponen banner carousel menyajikan 3 slide utama yang dapat berganti secara otomatis maupun manual melalui tombol navigasi dot dan panah kanan-kiri:
+  </p>
+  <ul>
+    <li><strong>Slide 1:</strong> Fullstack Web Developer & Trainer - Menekankan kode berkualitas dan performa tinggi.</li>
+    <li><strong>Slide 2:</strong> Jasa Pembuatan Website Bisnis - Menawarkan company profile, toko online, dan sistem web kustom bergaransi 3 bulan.</li>
+    <li><strong>Slide 3:</strong> Akademi & Mentoring Pemrograman - Menawarkan training Laravel dari nol, bimbingan privat 1-on-1, dan corporate training.</li>
+  </ul>
+
+  <h2>3.4 Kartu Dokumentasi Proyek & Showcase Video</h2>
+  <p>
+    Menyajikan proyek riil yang pernah dikerjakan oleh Ibrahim lengkap dengan kategori, nama klien, gambar representatif beresolusi tinggi, deskripsi solusi teknis, badge teknologi (*Laravel, PostgreSQL, Livewire, Redis, dll.*), serta tautan demo live dan repository kode. Disertai pula kartu video showcase yang dapat memutar rekaman video tutorial, demo aplikasi kasir POS, dan webinar teknologi.
+  </p>
+
+  <!-- BAB 4 -->
+  <h1>Bab 4: Panduan Pengelolaan Panel Kendali CMS (Back-End Admin)</h1>
+  <div class="tip-box">
+    <strong>Akses Masuk CMS:</strong> Akses URL <code>/login</code> pada peramban Anda. Masukkan email <code>ibrahim@portfolio.com</code> dan password <code>password123</code>. Anda dapat mengklik ikon mata di sisi kanan kolom password untuk melihat password yang Anda ketik sebelum menekan tombol Masuk.
+  </div>
+
+  <h2>4.1 Manajemen Akun & Ganti Password (/cms/akun)</h2>
+  <p>
+    Pemilik sistem dapat mengubah nama akun, alamat email login, serta memperbarui kata sandi kapan pun diperlukan. Sistem menerapkan pengamanan verifikasi kata sandi lama (<em>current password verification</em>) untuk mencegah pengambilalihan akun yang tidak sah.
+  </p>
+
+  <h2>4.2 Pengaturan Profil, Peta Maps & Medsos (/cms/pengaturan)</h2>
+  <p>
+    Di menu ini, pemilik dapat mengubah:
+  </p>
+  <ul>
+    <li>Nama lengkap, gelar profesional, status ketersediaan, dan ringkasan bio profil.</li>
+    <li>Upload <strong>Foto Profil / Avatar Baru</strong> (mendukung file gambar besar hingga 20MB).</li>
+    <li>Upload <strong>File CV Baru (PDF/DOCX)</strong> agar pengunjung web dapat mengunduh CV terbaru secara langsung.</li>
+    <li>Kontak resmi: Alamat email bisnis, nomor telepon, dan nomor WhatsApp.</li>
+    <li>URL embed Google Maps lokasi kantor/studio.</li>
+    <li>Tautan akun media sosial: GitHub, LinkedIn, Instagram, YouTube, dan Twitter (X).</li>
+    <li>Teks footer tentang saya dan kalimat hak cipta copyright.</li>
+  </ul>
+
+  <h2>4.3 Manajemen Konten CV: Karir, Skill, Sertifikasi & Pendidikan (/cms/cv)</h2>
+  <p>
+    Pemilik dapat mengelola seluruh elemen CV digital secara dinamis tanpa menyentuh kode program:
+  </p>
+  <ul>
+    <li><strong>Pengalaman Kerja:</strong> Tambah/Edit/Hapus riwayat pekerjaan, posisi, nama perusahaan, periode tahun kerja, dan deskripsi tugas.</li>
+    <li><strong>Keahlian Teknis (Skill):</strong> Tambah keahlian baru, pilih kategori, tentukan tingkat kemahiran (*Beginner* hingga *Expert*), dan persentase progress bar (0–100%).</li>
+    <li><strong>Sertifikasi & Lisensi:</strong> Tambah sertifikasi resmi, nama lembaga penerbit, tahun lulus, nomor lisensi kredensial, dan URL verifikasi.</li>
+    <li><strong>Pendidikan Formal:</strong> Tambah riwayat universitas, gelar sarjana, jurusan, tahun kelulusan, dan predikat IPK.</li>
+  </ul>
+
+  <h2>4.4 Manajemen Layanan, Proyek, Video & Testimoni</h2>
+  <p>
+    Semua modul bisnis dapat dikelola melalui menu CMS masing-masing:
+  </p>
+  <ul>
+    <li><strong>Layanan Jasa & Training (<code>/cms/layanan</code>):</strong> Ubah judul paket, harga, badge promosi, deskripsi, dan butir-butir fitur layanan.</li>
+    <li><strong>Dokumentasi Proyek (<code>/cms/proyek</code>):</strong> Tambah proyek baru, upload tangkapan layar beresolusi tinggi, cantumkan stack teknologi dan link demo.</li>
+    <li><strong>Showcase Video (<code>/cms/video</code>):</strong> Masukkan link video YouTube/embed, upload thumbnail kustom, dan tulis deskripsi video.</li>
+    <li><strong>Apa Kata Mereka (<code>/cms/testimoni</code>):</strong> Kelola ulasan klien, upload foto avatar klien, tentukan rating bintang 1–5.</li>
+  </ul>
+
+  <h2>4.5 Kotak Masuk Pesan & Catatan Internal Admin (/cms/pesan)</h2>
+  <p>
+    Setiap pesan yang dikirimkan oleh pengunjung melalui form kontak akan masuk ke halaman ini. Pemilik dapat:
+  </p>
+  <ul>
+    <li>Membaca detail nama pengirim, email, nomor telepon/WhatsApp, jenis layanan yang diminati, dan pesan lengkap.</li>
+    <li>Mengubah status tindak lanjut pesan: <strong>Belum Dibaca</strong>, <strong>Sudah Dibaca</strong>, <strong>Dibalas</strong>, atau <strong>Diarsipkan</strong>.</li>
+    <li>Menambahkan <strong>Catatan Internal Admin</strong> (misal: <em>"Klien meminta proposal dikirim sebelum hari Kamis jam 14.00"</em>).</li>
+    <li>Menghapus pesan jika sudah selesai diproses.</li>
+  </ul>
+
+  <!-- BAB 5 -->
+  <h1>Bab 5: Manajemen File Upload Berukuran Besar (JPG, PNG, SVG, PDF)</h1>
+  <h2>5.1 Mengapa Menghindari Input Berupa URL?</h2>
+  <p>
+    Sistem sebelumnya menggunakan input string URL teks untuk gambar. Pendekatan ini memiliki kelemahan serius: ketergantungan pada hosting gambar eksternal yang rentan tautan rusak (*broken links*) atau dihapus oleh pihak ketiga.
+  </p>
+  <p>
+    Pada versi terbaru ini, seluruh formulir CMS telah dialihkan ke <strong>Direct File Upload</strong>. Berkas fisik diunggah ke server lokal dan disimpan secara aman di dalam direktori <code>storage/app/public/</code> yang terhubung melalui symlink ke <code>public/storage/</code>.
+  </p>
+
+  <h2>5.2 Validasi & Penanganan File Berukuran Besar (Hingga 20MB)</h2>
+  <p>
+    Sistem mendukung format berkas gambar modern: <code>.jpg</code>, <code>.jpeg</code>, <code>.png</code>, <code>.svg</code>, dan <code>.webp</code> dengan batas ukuran besar hingga **20.480 KB (20 MB)**, serta berkas CV dokumen hingga **25 MB**.
+  </p>
+  <div class="code-block">
+// Cuplikan Validasi Kuat di CmsController.php
+$request->validate([
+    'avatar_file' => 'nullable|file|mimes:jpg,jpeg,png,svg,webp|max:20480',
+    'cv_file'     => 'nullable|file|mimes:pdf,doc,docx|max:25600',
+    'image_file'  => 'nullable|file|mimes:jpg,jpeg,png,svg,webp|max:20480',
+]);
+
+// Penyimpanan Aman dengan Nama Unik
+if ($request->hasFile('avatar_file')) {
+    $path = $request->file('avatar_file')->store('avatars', 'public');
+    $profile->avatar_url = asset('storage/' . $path);
+}
+  </div>
+
+  <!-- BAB 6 -->
+  <h1>Bab 6: Panduan Instalasi, Setup Lingkungan Lokal & Database</h1>
+  <h2>6.1 Kebutuhan Sistem Minimum</h2>
+  <ul>
+    <li>PHP 8.2 atau lebih baru (Sangat direkomendasikan PHP 8.4)</li>
+    <li>Ekstensi PHP: OpenSSL, PDO, Mbstring, Tokenizer, XML, Ctype, JSON, cURL, Fileinfo</li>
+    <li>Composer 2.x</li>
+    <li>Node.js 18+ & NPM</li>
+    <li>Database: SQLite (default bawaan praktis) atau MySQL 8.0+ / MariaDB 10.4+</li>
+  </ul>
+
+  <h2>6.2 Langkah-Langkah Menjalankan Aplikasi di Komputer Lokal</h2>
+  <div class="code-block">
+# 1. Buka terminal di folder project
+cd /path/to/portofolio_ibrahim
+
+# 2. Pasang dependensi PHP dan Node.js
+composer install
+npm install
+
+# 3. Konfigurasi file environment
+cp .env.example .env
+php artisan key:generate
+
+# 4. Buat tautan direktori storage publik
+php artisan storage:link
+
+# 5. Jalankan migrasi tabel dan seeding data awal
+php artisan migrate:fresh --seed
+
+# 6. Kompilasi aset frontend
+npm run build
+
+# 7. Jalankan server lokal Laravel
+php artisan serve
+  </div>
+  <p>Aplikasi publik siap diakses pada alamat <code>http://127.0.0.1:8000</code> dan panel CMS pada <code>http://127.0.0.1:8000/login</code>.</p>
+
+  <!-- BAB 7 -->
+  <h1>Bab 7: Panduan Deployment ke Server Production (Cloud & VPS)</h1>
+  <h2>7.1 Langkah Optimasi Production Laravel</h2>
+  <p>
+    Sebelum website dipublikasikan ke server cloud atau VPS (Ubuntu Server + Nginx), jalankan perintah optimasi bawaan Laravel untuk mempercepat response time hingga 300%:
+  </p>
+  <div class="code-block">
+# Mengunci konfigurasi, route, dan view ke dalam memory cache
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+composer install --optimize-autoloader --no-dev
+  </div>
+
+  <h2>7.2 Konfigurasi Nginx Server Block</h2>
+  <div class="code-block">
+server {
+    listen 80;
+    server_name ibrahim-portfolio.com www.ibrahim-portfolio.com;
+    root /var/www/portofolio_ibrahim/public;
+
+    add_header X-Frame-Options "SAMEORIGIN";
+    add_header X-Content-Type-Options "nosniff";
+    index index.php;
+    charset utf-8;
+
+    # Batas ukuran upload hingga 25MB agar sinkron dengan CMS
+    client_max_body_size 25M;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        fastcgi_pass unix:/var/run/php/php8.4-fpm.sock;
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+
+    location ~ /\.(?!well-known).* {
+        deny all;
+    }
+}
+  </div>
+
+  <!-- BAB 8 -->
+  <h1>Bab 8: Standar Keamanan Data & Best Practices (OWASP Top 10)</h1>
+  <p>
+    Sistem dibangun dengan pertahanan berlapis untuk melindungi data sensitif dan privasi pemilik:
+  </p>
+  <ul>
+    <li><strong>Cross-Site Request Forgery (CSRF):</strong> Setiap form POST dilindungi dengan token <code>@csrf</code> terenkripsi.</li>
+    <li><strong>SQL Injection:</strong> Seluruh query menggunakan Eloquent ORM dengan prepared statements berparameter.</li>
+    <li><strong>Cross-Site Scripting (XSS):</strong> Seluruh keluaran data di-escape otomatis oleh Blade Engine (<code>{{ $data }}</code>).</li>
+    <li><strong>Password Hashing:</strong> Menggunakan algoritma <em>Bcrypt</em> dengan work factor tinggi. Password tidak pernah disimpan dalam bentuk teks biasa.</li>
+    <li><strong>Proteksi Brute-Force:</strong> Laravel Route Rate Limiting membatasi percobaan login yang berulang dalam rentang waktu singkat.</li>
+  </ul>
+
+  <!-- BAB 9 -->
+  <h1>Bab 9: Kurikulum Program Pelatihan Web (Jasa Training Ibrahim)</h1>
+  <h2>9.1 Silabus Training Fullstack Laravel dari Nol</h2>
+  <table class="bordered">
+    <tr>
+      <th width="20%">Minggu / Modul</th>
+      <th width="45%">Materi Pembelajaran</th>
+      <th width="35%">Proyek Praktek (Deliverable)</th>
+    </tr>
+    <tr>
+      <td><strong>Minggu 1-2</strong></td>
+      <td>Fundamental PHP Modern, Object-Oriented Programming (OOP), Namespace, Composer, PSR Standard</td>
+      <td>Program Mini OOP: Kalkulator Finansial & Library Manager</td>
+    </tr>
+    <tr>
+      <td><strong>Minggu 3-4</strong></td>
+      <td>Arsitektur MVC Laravel 12, Routing, Controllers, Blade Engine, Tailwind CSS UI Components</td>
+      <td>Website Profil Usaha & Blog Interaktif</td>
+    </tr>
+    <tr>
+      <td><strong>Minggu 5-6</strong></td>
+      <td>Database Design, Migrations, Seeders, Eloquent Relationships (1-to-1, 1-to-M, M-to-M), Query Builder</td>
+      <td>Sistem Kasir Toko & Inventaris Barang</td>
+    </tr>
+    <tr>
+      <td><strong>Minggu 7-8</strong></td>
+      <td>Autentikasi Multi-Role, Middleware, Form Validation, File Upload Manager, RESTful API & JSON Web Token</td>
+      <td>Portal Manajemen Karyawan & Absensi Online</td>
+    </tr>
+    <tr>
+      <td><strong>Minggu 9-10</strong></td>
+      <td>Integrasi Payment Gateway Midtrans (QRIS/VA), Notifikasi WhatsApp API, Mail Queue & Background Jobs</td>
+      <td>Platform E-Commerce Siap Jualan</td>
+    </tr>
+    <tr>
+      <td><strong>Minggu 11-12</strong></td>
+      <td>Automated Testing dengan PHPUnit, Git Collaboration di GitHub, Deployment ke Server Cloud VPS & Domain SSL</td>
+      <td>Rilis Proyek Portofolio Akhir ke Internet</td>
+    </tr>
+  </table>
+
+  <!-- BAB 10 -->
+  <h1>Bab 10: Standar SOP Jasa Pembuatan Website Profesional</h1>
+  <p>
+    Standar Prosedur Operasional (SOP) pengerjaan jasa website oleh Ibrahim dirancang untuk menjamin ketepatan waktu dan kepuasan maksimal klien:
+  </p>
+  <ol>
+    <li><strong>Discovery & Briefing:</strong> Wawancara mendalam untuk memetakan tujuan bisnis, target audiens, dan fitur teknis utama.</li>
+    <li><strong>Wireframing & Desain Visual:</strong> Penyusunan struktur tampilan di Figma/Mockup untuk disetujui klien sebelum coding dimulai.</li>
+    <li><strong>Fase Pengembangan Sistem:</strong> Pengkodean backend & frontend dengan standar clean code dan responsivitas mobile.</li>
+    <li><strong>Staging & Testing:</strong> Penempatan aplikasi di server uji coba pribadi untuk dites langsung oleh klien bersama tim.</li>
+    <li><strong>Deployment & Serah Terima:</strong> Migrasi ke domain dan hosting klien, penyerahan seluruh akun, dan sesi pelatihan CMS tatap muka/online.</li>
+    <li><strong>Masa Garansi Bebas Cacat:</strong> Garansi perbaikan bug dan pemeliharaan rutin tanpa biaya tambahan selama <strong>3 Bulan</strong> penuh.</li>
+  </ol>
+
+  <!-- PENUTUP -->
+  <h1>Penutup & Lembar Pengesahan Dokumen</h1>
+  <p>
+    Demikian buku panduan komprehensif ini dibuat sebagai dokumentasi resmi, pedoman pengembangan berkelanjutan, serta bahan ajar sistem digital portofolio dan CMS modern Ibrahim. Diharapkan buku panduan ini menjadi referensi yang kokoh dalam menjaga mutu, keandalan, dan skalabilitas sistem di masa mendatang.
+  </p>
+  <table width="100%" style="margin-top: 30pt; border-collapse: collapse;">
+    <tr>
+      <td width="60%">
+        <p style="font-size: 9pt; color: #64748b; margin: 0;">
+          Diterbitkan di Jakarta & Bandung, Indonesia<br>
+          Tanggal Rilis: 6 November 2026<br>
+          Versi Dokumen: 2.1 (Enterprise Production Release)
+        </p>
+      </td>
+      <td width="40%" align="center">
+        <div style="font-size: 10pt; font-weight: 700; color: #0f172a;">Disusun & Disahkan Oleh:</div>
+        <div style="margin-top: 35pt; font-size: 11pt; font-weight: 800; color: #1e3a8a;">IBRAHIM, S.Kom.</div>
+        <div style="font-size: 9pt; color: #64748b;">Senior Fullstack Web Developer & IT Trainer</div>
+      </td>
+    </tr>
+  </table>
+
+</div>
+</body>
+</html>

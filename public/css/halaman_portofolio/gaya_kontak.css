@@ -1,0 +1,61 @@
+/* Bagian Kontak */
+.contact-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px}.contact-info,.contact-form{padding:34px;border-radius:14px;background:white;border:1px solid #e8ebf1}.contact-info h2{font-family:Manrope;color:#17243c;font-size:30px;margin:8px 0}.contact-info>p{color:#697386;line-height:1.7}.contact-info>a{display:flex;align-items:center;gap:14px;color:#17243c;text-decoration:none;margin-top:22px}.contact-info>a>i{width:42px;height:42px;border-radius:10px;background:#eef1ff;color:#3157d5;display:grid;place-items:center}.contact-info small,.contact-info a span{display:block}.contact-info small{color:#8991a1}.contact-form{display:grid;gap:18px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.contact-form label{font-size:13px;font-weight:700;color:#3d4657}.contact-form input,.contact-form textarea,.contact-form select{width:100%;margin-top:7px;border:1px solid #dde1e9;border-radius:8px;padding:13px 14px;font:inherit;background:#fbfcfe}.contact-form input:focus,.contact-form textarea:focus,.contact-form select:focus{outline:2px solid #3157d530;border-color:#3157d5}.contact-form .btn-primary{justify-self:start;border:0;cursor:pointer}.alert-success,.alert-error{padding:13px;border-radius:8px}.alert-success{background:#eaf8f1;color:#1f7a50}.alert-error{background:#fff0f0;color:#b83b3b}.map-section iframe{width:100%;height:360px;border:0;border-radius:14px}@media(max-width:700px){.contact-layout{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}}
+.bagian-kontak {
+    max-width: 700px;
+    margin: 50px auto 80px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.bagian-kontak h2 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bagian-kontak form div {
+    margin-bottom: 20px;
+}
+
+.bagian-kontak input,
+.bagian-kontak textarea {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+}
+
+.bagian-kontak input:focus,
+.bagian-kontak textarea:focus {
+    border-color: #2563eb;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.bagian-kontak button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+        background-color 0.3s ease,
+        transform 0.2s ease;
+}
+
+.bagian-kontak button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}

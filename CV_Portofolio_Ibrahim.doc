@@ -1,0 +1,581 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>CV & Portofolio Profesional - Ibrahim, S.Kom.</title>
+<!--[if gte mso 9]>
+<xml>
+  <w:WordDocument>
+    <w:View>Print</w:View>
+    <w:Zoom>100</w:Zoom>
+    <w:DoNotOptimizeForBrowser/>
+  </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  @page {
+    size: 21.0cm 29.7cm; /* A4 */
+    margin: 2.0cm 2.0cm 2.0cm 2.0cm;
+    mso-page-orientation: portrait;
+  }
+  @page Section1 {
+    mso-header-margin: 1.0cm;
+    mso-footer-margin: 1.0cm;
+  }
+  div.Section1 {
+    page: Section1;
+  }
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, Helvetica, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    color: #1e293b;
+    background-color: #ffffff;
+  }
+  h1, h2, h3, h4, h5 {
+    color: #0f172a;
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    margin-top: 14pt;
+    margin-bottom: 6pt;
+  }
+  h1 { font-size: 22pt; font-weight: 800; color: #1e3a8a; margin-bottom: 2pt; }
+  h2 { font-size: 13.5pt; font-weight: 700; color: #1e40af; border-bottom: 2pt solid #2563eb; padding-bottom: 4pt; margin-top: 18pt; text-transform: uppercase; letter-spacing: 0.5pt; }
+  h3 { font-size: 11.5pt; font-weight: 700; color: #1e293b; margin-top: 10pt; margin-bottom: 2pt; }
+  p { margin-top: 0; margin-bottom: 6pt; text-align: justify; }
+  ul { margin-top: 3pt; margin-bottom: 6pt; padding-left: 20pt; }
+  li { margin-bottom: 3pt; }
+  
+  table { width: 100%; border-collapse: collapse; margin-top: 6pt; margin-bottom: 10pt; }
+  table.bordered td, table.bordered th { border: 1pt solid #cbd5e1; padding: 6pt 8pt; vertical-align: top; }
+  table.bordered th { background-color: #f1f5f9; font-weight: 700; color: #0f172a; text-align: left; }
+  table.no-border td { border: none; padding: 3pt 0; vertical-align: top; }
+
+  .header-card {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 16pt 18pt;
+    border-radius: 6pt;
+    margin-bottom: 14pt;
+  }
+  .header-card h1 { color: #ffffff; margin: 0; }
+  .header-card .subtitle { color: #38bdf8; font-size: 12pt; font-weight: 600; margin-top: 3pt; }
+  .header-card .contacts { color: #cbd5e1; font-size: 9.5pt; margin-top: 8pt; line-height: 1.6; }
+  
+  .badge {
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    border: 1pt solid #bfdbfe;
+    padding: 2pt 6pt;
+    border-radius: 4pt;
+    font-size: 8.5pt;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .badge-dark {
+    background-color: #f1f5f9;
+    color: #334155;
+    border: 1pt solid #cbd5e1;
+    padding: 2pt 5pt;
+    font-size: 8pt;
+    border-radius: 3pt;
+  }
+  .highlight-box {
+    background-color: #f8fafc;
+    border-left: 3pt solid #2563eb;
+    padding: 8pt 12pt;
+    margin: 8pt 0;
+  }
+  .stat-grid {
+    background-color: #f0fdf4;
+    border: 1pt solid #bbf7d0;
+    padding: 8pt;
+    margin: 8pt 0;
+    border-radius: 4pt;
+  }
+  .stat-num { font-size: 14pt; font-weight: 800; color: #166534; }
+  .stat-label { font-size: 8.5pt; color: #15803d; font-weight: 600; }
+  .role-title { font-size: 11pt; font-weight: 700; color: #0f172a; }
+  .company-title { font-size: 10pt; font-weight: 600; color: #2563eb; }
+  .period-tag { font-size: 9pt; color: #64748b; font-style: italic; }
+  .project-title { font-size: 11pt; font-weight: 700; color: #0f172a; }
+</style>
+</head>
+<body>
+<div class="Section1">
+
+  <!-- HEADER IDENTITAS -->
+  <div class="header-card">
+    <table width="100%" style="border-collapse: collapse; margin: 0;">
+      <tr>
+        <td style="vertical-align: middle;">
+          <h1 style="color: #ffffff; font-size: 24pt; margin: 0;">IBRAHIM, S.Kom.</h1>
+          <div class="subtitle">Senior Fullstack Web Developer, Web Architect & Professional IT Trainer</div>
+          <div class="contacts">
+            <strong>Domisili:</strong> Jakarta & Bandung, Indonesia &nbsp;|&nbsp; 
+            <strong>Email:</strong> ibrahim@portfolio.com &nbsp;|&nbsp; 
+            <strong>WhatsApp / Telp:</strong> +62 812-3456-7890<br>
+            <strong>Portofolio Digital & CMS:</strong> http://localhost:8000 &nbsp;|&nbsp; 
+            <strong>GitHub:</strong> github.com/ibrahim &nbsp;|&nbsp; 
+            <strong>LinkedIn:</strong> linkedin.com/in/ibrahim-tech
+          </div>
+        </td>
+        <td width="150" align="right" style="vertical-align: middle;">
+          <div style="background-color: #1e293b; border: 1pt solid #334155; padding: 6pt 10pt; border-radius: 6pt; text-align: center;">
+            <span style="color: #4ade80; font-size: 8.5pt; font-weight: 700;">● STATUS: TERSEDIA</span><br>
+            <span style="color: #94a3b8; font-size: 8pt;">Jasa Pembuatan Web & Training IT</span>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- STATISTIK KUNCI -->
+  <table class="bordered" style="margin-bottom: 12pt;">
+    <tr align="center" style="background-color: #f8fafc;">
+      <td width="25%"><div class="stat-num">7+ TAHUN</div><div class="stat-label">Pengalaman Industri IT</div></td>
+      <td width="25%"><div class="stat-num">120+ PROYEK</div><div class="stat-label">Web & Aplikasi Selesai</div></td>
+      <td width="25%"><div class="stat-num">500+ ALUMNI</div><div class="stat-label">Peserta Training Web</div></td>
+      <td width="25%"><div class="stat-num">99.8%</div><div class="stat-label">Tingkat Kepuasan Klien</div></td>
+    </tr>
+  </table>
+
+  <!-- 1. RINGKASAN EKSEKUTIF -->
+  <h2>1. Ringkasan Eksekutif (Executive Summary)</h2>
+  <div class="highlight-box">
+    <p style="margin: 0; font-size: 10pt;">
+      <strong>Ibrahim, S.Kom.</strong> adalah seorang <em>Lead Web Architect, Senior Full Stack Developer, dan Instruktur Teknologi Profesional</em> dengan rekam jejak lebih dari <strong>7 tahun</strong> di industri rekayasa perangkat lunak web. Berpengalaman luas dalam merancang arsitektur sistem informasi enterprise, platform e-commerce multi-vendor skala besar, integrasi Payment Gateway & Webhook, serta RESTful API standar internasional.
+    </p>
+    <p style="margin: 6pt 0 0 0; font-size: 10pt;">
+      Selain aktif sebagai konsultan dan developer pengembang web, Ibrahim telah mendedikasikan waktu lebih dari 5 tahun melatih lebih dari <strong>500 mahasiswa, fresh graduate, dan karyawan korporat</strong> dalam program training pemrograman web intensif, mencetak tenaga ahli yang siap terjun langsung ke industri teknologi. Memiliki komitmen tinggi pada <em>Clean Code, SOLID Principles, Keamanan Aplikasi (OWASP Top 10), High Performance, dan Skalabilitas</em>.
+    </p>
+  </div>
+
+  <!-- 2. KOMPETENSI INTI & TEKNOLOGI -->
+  <h2>2. Kompetensi Inti & Keahlian Teknis (Tech Stacks)</h2>
+  <table class="bordered">
+    <tr>
+      <th width="28%">Domain / Kategori</th>
+      <th width="72%">Teknologi, Tools & Standar Industri</th>
+    </tr>
+    <tr>
+      <td><strong>Backend Engineering</strong></td>
+      <td>
+        PHP 8.2 / 8.3 / 8.4, <strong>Laravel Ecosystem (Laravel 10, 11, 12)</strong>, Eloquent ORM, Service Layer Pattern, Repository Pattern, Middleware Architecture, Event & Listener, Job Queues, Task Scheduling, Artisan CLI, Composer.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Frontend Development</strong></td>
+      <td>
+        JavaScript (ES6+), TypeScript, Vue.js, Alpine.js, <strong>Tailwind CSS</strong>, Blade Templating Engine, Bootstrap 5, Vite Bundler, Responsive Web Design, CSS3 Parallax, Web Accessibility (a11y).
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Database & Caching</strong></td>
+      <td>
+        <strong>MySQL, PostgreSQL, SQLite, Redis</strong>, Database Normalization, Indexing Strategy, Query Optimization, Foreign Key Constraints, Transactions & Locking, Migrations & Database Seeding.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>API & Third-Party Integration</strong></td>
+      <td>
+        RESTful API Architecture, JSON:API, OAuth2, JWT Authentication, <strong>Payment Gateway (Midtrans, Xendit, Stripe, PayPal)</strong>, Kemenkes SATUSEHAT API, RajaOngkir Logistik, WhatsApp Business Gateway, Google Maps Geocoding API.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Server, Cloud & DevOps</strong></td>
+      <td>
+        Linux (Ubuntu Server, Debian), Nginx, Apache HTTP Server, Docker & Docker Compose, Git & GitHub Actions (CI/CD), SSL/TLS Let's Encrypt, CPanel/WHM, Laravel Cloud, VPS Deployment (DigitalOcean, Linode, AWS EC2).
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Keamanan & Pengujian (QA)</strong></td>
+      <td>
+        PHPUnit Testing Suite, Feature & Unit Tests, OWASP Top 10 Mitigation (CSRF, XSS, SQL Injection Prevention, Secure Cookie, Content Security Policy), Laravel Pint Code Formatter, Rate Limiting, Brute-force Protection.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Metodologi & Soft Skills</strong></td>
+      <td>
+        Agile / Scrum, Git Flow Collaboration, Technical Mentoring & Public Speaking, Code Review, Problem Solving, Client Requirement Gathering, Technical Documentation Writing.
+      </td>
+    </tr>
+  </table>
+
+  <!-- 3. RIWAYAT PENGALAMAN KERJA -->
+  <h2>3. Riwayat Pengalaman Kerja & Karir Profesional</h2>
+
+  <!-- Posisi 1 -->
+  <table class="no-border" width="100%">
+    <tr>
+      <td>
+        <span class="role-title">Lead Web Architect & IT Trainer</span><br>
+        <span class="company-title">IndoTech Solusindo & Freelance Digital Agency</span>
+      </td>
+      <td align="right">
+        <span class="period-tag">Januari 2023 - Sekarang (Aktif)</span><br>
+        <span class="badge">Jakarta / Hybrid</span>
+      </td>
+    </tr>
+  </table>
+  <ul>
+    <li>Merancang arsitektur sistem informasi web berskala menengah hingga enterprise berbasis framework <strong>Laravel 11 & 12</strong>, menangani throughput ribuan transaksi per hari.</li>
+    <li>Memimpin tim 6 developer (frontend, backend, QA) dalam metodologi Agile/Scrum, memastikan delivery modul tepat waktu dengan standar <em>Clean Code</em> dan pengujian otomatis (PHPUnit).</li>
+    <li>Menginisiasi dan mengajar program <strong>Corporate IT Training</strong> untuk instansi BUMN, korporasi swasta, dan kelas intensif bootcamp publik dengan total lebih dari 500 peserta.</li>
+    <li>Mengembangkan sistem CMS (Control Management System) kustom dengan fitur keamanan multi-role, form upload berkas besar terproteksi (hingga 20MB), dan dashboard analitik interaktif.</li>
+  </ul>
+
+  <!-- Posisi 2 -->
+  <table class="no-border" width="100%" style="margin-top: 10pt;">
+    <tr>
+      <td>
+        <span class="role-title">Senior Full Stack Web Developer</span><br>
+        <span class="company-title">Nusa Digital Platform</span>
+      </td>
+      <td align="right">
+        <span class="period-tag">Maret 2020 - Desember 2022</span><br>
+        <span class="badge">Bandung, Jawa Barat</span>
+      </td>
+    </tr>
+  </table>
+  <ul>
+    <li>Mengembangkan platform SaaS B2B dan portal e-commerce multi-cabang yang menghubungkan ratusan distributor dengan ribuan toko ritel.</li>
+    <li>Mengintegrasikan sistem pembayaran otomatis (Midtrans & Xendit) untuk mendukung metode QRIS Dinamis, Virtual Account Bank, dan E-Wallet, menurunkan tingkat abandon order sebesar 28%.</li>
+    <li>Mengoptimalkan query database MySQL berskala jutaan baris, menerapkan caching Redis dan indexing cermat, mempercepat waktu response server dari 1.8 detik menjadi kurang dari 250 milidetik.</li>
+    <li>Membangun Progressive Web App (PWA) untuk modul Point of Sale (POS) kasir offline-first dengan integrasi printer thermal Bluetooth.</li>
+  </ul>
+
+  <!-- Posisi 3 -->
+  <table class="no-border" width="100%" style="margin-top: 10pt;">
+    <tr>
+      <td>
+        <span class="role-title">Backend Developer & Laravel Specialist</span><br>
+        <span class="company-title">Cyber Creative Labs</span>
+      </td>
+      <td align="right">
+        <span class="period-tag">Juli 2018 - Februari 2020</span><br>
+        <span class="badge">Jakarta Selatan</span>
+      </td>
+    </tr>
+  </table>
+  <ul>
+    <li>Membangun lebih dari 40 website profil perusahaan korporat, sistem reservasi hotel internasional, dan landing page konversi tinggi untuk klien nasional maupun luar negeri.</li>
+    <li>Mengembangkan modul integrasi WhatsApp Gateway dan notifikasi email transaksional otomatis berbasis queue worker.</li>
+    <li>Melakukan audit keamanan aplikasi dan perbaikan celah keamanan web (penetration testing dasar) sesuai kaidah OWASP.</li>
+  </ul>
+
+  <!-- Posisi 4 -->
+  <table class="no-border" width="100%" style="margin-top: 10pt;">
+    <tr>
+      <td>
+        <span class="role-title">Junior Web Developer & Programmer</span><br>
+        <span class="company-title">Studio Kreasi Mandiri</span>
+      </td>
+      <td align="right">
+        <span class="period-tag">Januari 2017 - Juni 2018</span><br>
+        <span class="badge">Jakarta Barat</span>
+      </td>
+    </tr>
+  </table>
+  <ul>
+    <li>Membangun layout HTML5/CSS3 responsif, mengiris desain Figma/PSD menjadi template web dinamis berbasis PHP dan MySQL.</li>
+    <li>Membantu pemeliharaan server hosting cPanel, setup DNS, sertifikat SSL, dan backup berkala database klien.</li>
+  </ul>
+
+  <!-- 4. PENDIDIKAN FORMAL -->
+  <h2>4. Riwayat Pendidikan Formal</h2>
+  <table class="bordered">
+    <tr style="background-color: #f8fafc;">
+      <th width="65%">Gelar, Jurusan & Institusi</th>
+      <th width="35%">Tahun & Keterangan</th>
+    </tr>
+    <tr>
+      <td>
+        <strong>Sarjana Komputer (S.Kom) - Teknik Informatika</strong><br>
+        <span style="color: #2563eb; font-weight: 600;">Universitas Indonesia / Institut Teknologi Terkemuka</span><br>
+        <span style="font-size: 9pt; color: #475569;">
+          Fokus: Rekayasa Perangkat Lunak, Arsitektur Basis Data, Jaringan Komputer, dan Keamanan Sistem Informasi.<br>
+          <em>Judul Tugas Akhir: "Rancang Bangun Sistem Informasi Logistik Terdistribusi Berbasis Cloud Menggunakan Framework Laravel dan Arsitektur REST API"</em>
+        </span>
+      </td>
+      <td>
+        <strong>2016 - 2020</strong><br>
+        <span class="badge" style="background-color: #f0fdf4; color: #166534; border-color: #bbf7d0;">LULUS PREDIKAT CUMLAUDE</span><br>
+        <span style="font-size: 9pt; color: #334155;">IPK: <strong>3.85 / 4.00</strong></span>
+      </td>
+    </tr>
+  </table>
+
+  <!-- 5. SERTIFIKASI PROFESI -->
+  <h2>5. Sertifikasi Profesi & Lisensi Resmi</h2>
+  <table class="bordered">
+    <tr>
+      <th width="45%">Nama Sertifikasi</th>
+      <th width="35%">Lembaga Penerbit</th>
+      <th width="20%">Tahun / Lisensi</th>
+    </tr>
+    <tr>
+      <td><strong>Certified Laravel Expert Developer</strong></td>
+      <td>Laravel Certification Authority (Internasional)</td>
+      <td>2023 | LCA-99281-ID</td>
+    </tr>
+    <tr>
+      <td><strong>Web Security & OWASP Top 10 Specialist</strong></td>
+      <td>Cyber Security Institute Global</td>
+      <td>2024 | CSI-SEC-2024-884</td>
+    </tr>
+    <tr>
+      <td><strong>Certified Professional Technical Trainer</strong></td>
+      <td>Badan Nasional Sertifikasi Profesi (BNSP RI)</td>
+      <td>2022 | BNSP-TRAIN-82719</td>
+    </tr>
+    <tr>
+      <td><strong>Database Design & Query Optimization Professional</strong></td>
+      <td>Oracle Academy & MySQL Institute</td>
+      <td>2021 | ORA-DB-44102</td>
+    </tr>
+  </table>
+
+  <!-- 6. PORTOFOLIO PROYEK PILIHAN -->
+  <h2>6. Showcase Portofolio Proyek Terpilih</h2>
+
+  <!-- Proyek 1 -->
+  <div style="margin-bottom: 12pt; border: 1pt solid #cbd5e1; border-radius: 4pt; padding: 10pt;">
+    <div class="project-title">1. Sistem Informasi Manajemen Rumah Sakit & Rekam Medis (SIMRS)</div>
+    <table class="no-border" width="100%">
+      <tr>
+        <td width="50%"><strong>Klien / Instansi:</strong> RSUD Bhakti Sehat</td>
+        <td width="50%" align="right"><strong>Kategori:</strong> Sistem Informasi Web Enterprise</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <strong>Tech Stack:</strong> <span class="badge-dark">Laravel 11</span> <span class="badge-dark">PostgreSQL</span> <span class="badge-dark">Tailwind CSS</span> <span class="badge-dark">WebSockets</span> <span class="badge-dark">SATUSEHAT API</span>
+        </td>
+      </tr>
+    </table>
+    <p style="margin-top: 6pt;">
+      <strong>Deskripsi & Hasil:</strong> Mengembangkan sistem informasi rumah sakit terpadu mencakup modul antrean pasien online display monitor suara otomatis, Rekam Medis Elektronik (RME) yang terhubung resmi ke API Kemenkes SATUSEHAT, modul farmasi & apotek stok obat realtime, serta billing kasir terintegrasi asuransi BPJS. Mengurangi waktu antre pasien hingga 60%.
+    </p>
+  </div>
+
+  <!-- Proyek 2 -->
+  <div style="margin-bottom: 12pt; border: 1pt solid #cbd5e1; border-radius: 4pt; padding: 10pt;">
+    <div class="project-title">2. Marketplace B2B Distribusi Bahan Bangunan & Toko Material</div>
+    <table class="no-border" width="100%">
+      <tr>
+        <td width="50%"><strong>Klien:</strong> PT Mitra Niaga Bangunan</td>
+        <td width="50%" align="right"><strong>Kategori:</strong> B2B E-Commerce Platform</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <strong>Tech Stack:</strong> <span class="badge-dark">Laravel 12</span> <span class="badge-dark">Livewire</span> <span class="badge-dark">MySQL</span> <span class="badge-dark">Redis</span> <span class="badge-dark">Midtrans VA</span>
+        </td>
+      </tr>
+    </table>
+    <p style="margin-top: 6pt;">
+      <strong>Deskripsi & Hasil:</strong> Membangun platform e-procurement yang menghubungkan supplier pusat dengan 150+ toko material di Jabodetabek. Menangani order grosir berton-ton, sistem kredit termin (Term of Payment 30/60 hari), kalkulasi tonase armada truk pengiriman, surat jalan digital ber-QR code, dan rekonsiliasi pembayaran otomatis.
+    </p>
+  </div>
+
+  <!-- Proyek 3 -->
+  <div style="margin-bottom: 12pt; border: 1pt solid #cbd5e1; border-radius: 4pt; padding: 10pt;">
+    <div class="project-title">3. Portal Company Profile & Booking Hotel Resort Luxury Bali</div>
+    <table class="no-border" width="100%">
+      <tr>
+        <td width="50%"><strong>Klien:</strong> Samudera Bliss Resort & Spa</td>
+        <td width="50%" align="right"><strong>Kategori:</strong> Luxury Hospitality Portal</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <strong>Tech Stack:</strong> <span class="badge-dark">Laravel</span> <span class="badge-dark">Blade Engine</span> <span class="badge-dark">CSS3 Parallax</span> <span class="badge-dark">Stripe API</span> <span class="badge-dark">PayPal</span>
+        </td>
+      </tr>
+    </table>
+    <p style="margin-top: 6pt;">
+      <strong>Deskripsi & Hasil:</strong> Merancang portal web eksklusif berbintang lima dengan tampilan visual 360 derajat kamar vila, kalender ketersediaan kamar real-time, reservasi spa, dukungan 3 bahasa (ID, EN, CN), dan gateway pembayaran kartu kredit internasional. Berhasil mendongkrak direct booking sebesar 42%.
+    </p>
+  </div>
+
+  <!-- Proyek 4 -->
+  <div style="margin-bottom: 12pt; border: 1pt solid #cbd5e1; border-radius: 4pt; padding: 10pt;">
+    <div class="project-title">4. Aplikasi POS Kasir & Laporan Omset Realtime (KasirKu Multi-Cabang)</div>
+    <table class="no-border" width="100%">
+      <tr>
+        <td width="50%"><strong>Klien:</strong> Jaringan Kafe Kopi Seduh Kita (8 Cabang)</td>
+        <td width="50%" align="right"><strong>Kategori:</strong> Cloud Point of Sales (POS)</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <strong>Tech Stack:</strong> <span class="badge-dark">Laravel REST API</span> <span class="badge-dark">PWA (Vue.js)</span> <span class="badge-dark">Tailwind CSS</span> <span class="badge-dark">QRIS Dynamic</span>
+        </td>
+      </tr>
+    </table>
+    <p style="margin-top: 6pt;">
+      <strong>Deskripsi & Hasil:</strong> Aplikasi kasir cloud yang mendukung operasi offline ketika koneksi internet terputus. Fitur split bill, cetak nota thermal Bluetooth, display antrean barista, QRIS dinamis di layar kasir, serta laporan laba rugi real-time yang langsung masuk ke email dan smartphone owner tiap penutupan shift.
+    </p>
+  </div>
+
+  <!-- Proyek 5 -->
+  <div style="margin-bottom: 12pt; border: 1pt solid #cbd5e1; border-radius: 4pt; padding: 10pt;">
+    <div class="project-title">5. Sistem Digital Portofolio & Panel Kendali CMS Modern (Proyek Ini)</div>
+    <table class="no-border" width="100%">
+      <tr>
+        <td width="50%"><strong>Klien:</strong> Ibrahim Personal Brand & Business</td>
+        <td width="50%" align="right"><strong>Kategori:</strong> Public Portfolio & CMS System</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <strong>Tech Stack:</strong> <span class="badge-dark">Laravel 12</span> <span class="badge-dark">PHP 8.4</span> <span class="badge-dark">Modular CSS</span> <span class="badge-dark">SQLite/MySQL</span> <span class="badge-dark">PHPUnit (18 Tests)</span>
+        </td>
+      </tr>
+    </table>
+    <p style="margin-top: 6pt;">
+      <strong>Deskripsi & Hasil:</strong> Web portofolio interaktif publik dengan arsitektur CSS modular per halaman, fixed topbar, left sidebar, carousel banner, modul layanan, video showcase, maps interaktif, form pesan publik, serta panel kendali CMS lengkap untuk merubah seluruh konten web, upload berkas gambar besar hingga 20MB, dan manajemen kata sandi terproteksi.
+    </p>
+  </div>
+
+  <!-- 7. KATALOG LAYANAN JASA & TRAINING -->
+  <h2>7. Katalog Layanan Jasa & Training Pemrograman</h2>
+  <table class="bordered">
+    <tr style="background-color: #f8fafc;">
+      <th width="30%">Layanan & Target Klien</th>
+      <th width="45%">Fitur & Lingkup Pekerjaan</th>
+      <th width="25%">Investasi / Harga</th>
+    </tr>
+    <tr>
+      <td>
+        <strong>Website Company Profile Korporat</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Bisnis, UKM, Korporat & Lembaga</span>
+      </td>
+      <td>
+        Desain custom profesional, mobile responsive 100%, Google Maps & tombol WhatsApp, SEO friendly Google, gratis domain .com & hosting SSD 1 tahun, akses CMS mudah, garansi 3 bulan.
+      </td>
+      <td><strong>Mulai Rp 1.800.000</strong></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Toko Online & E-Commerce Pro</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Toko Ritel, Brand Fashion, Distributor</span>
+      </td>
+      <td>
+        Katalog produk, payment gateway otomatis (QRIS, VA Bank, E-Wallet), cek ongkir otomatis JNE/J&T/SiCepat, notifikasi WA order, dashboard admin laporan keuangan & stok realtime.
+      </td>
+      <td><strong>Mulai Rp 3.500.000</strong></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Aplikasi Web Kustom & ERP/POS</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Perusahaan, Pabrik, Klinik, Sekolah</span>
+      </td>
+      <td>
+        Sistem operasional kustom berbasis Laravel (CRM, HRIS, POS, SIAKAD, SIMRS), multi-level role permission, ekspor PDF/Excel instan, audit log, integrasi API pihak ketiga.
+      </td>
+      <td><strong>Konsultasi Sesuai Kebutuhan</strong></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Training Fullstack Laravel dari Nol</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Mahasiswa, Pemula & Fresh Graduate</span>
+      </td>
+      <td>
+        Kurikulum studi kasus nyata dunia kerja: PHP OOP, MVC, Blade, Migration, Eloquent, live coding, code review, sertifikat resmi, grup konsultasi karir seumur hidup.
+      </td>
+      <td><strong>Rp 950.000 / Peserta</strong></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Mentoring Privat 1-on-1 Eksklusif</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Developer Pemula, Skripsi/Tesis, Karier</span>
+      </td>
+      <td>
+        Bimbingan privat tatap muka online, jadwal fleksibel, debugging langsung kode proyek Anda, bedah best practice clean code, simulasi technical interview programmer, VIP chat WA.
+      </td>
+      <td><strong>Rp 1.500.000 / Bulan</strong></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Corporate IT Training untuk Tim Kantor</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Korporasi, BUMN, Startup & Lembaga</span>
+      </td>
+      <td>
+        Pelatihan in-house (online/offline) standardisasi tech stack Laravel, Git collaboration, RESTful API, Docker deployment, post-training evaluation & sertifikat resmi karyawan.
+      </td>
+      <td><strong>Sesuai Ukuran Tim</strong></td>
+    </tr>
+  </table>
+
+  <!-- 8. TESTIMONI KLIEN -->
+  <h2>8. Testimoni Klien & Rekomendasi Profesional</h2>
+  <table class="bordered">
+    <tr style="background-color: #f8fafc;">
+      <th width="35%">Nama Klien & Instansi</th>
+      <th width="65%">Kutipan Testimoni Resmi</th>
+    </tr>
+    <tr>
+      <td>
+        <strong>Hendro Wijaya, S.Kom.</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Direktur Operasional - PT Surya Mega Logistik</span>
+      </td>
+      <td>
+        <em>"Mas Ibrahim sangat profesional dalam mengeksekusi sistem logistik perusahaan kami. Tampilan website sangat rapi, loading sangat cepat, dan instruksi serah terimanya jelas. Sangat direkomendasikan bagi siapapun yang butuh web berkualitas tinggi!"</em> (Rating: ★★★★★)
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>dr. Anita Larasati</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Founder & Owner - Aura Skin Clinic Jakarta</span>
+      </td>
+      <td>
+        <em>"Website klinik kecantikan kami dibuat oleh Mas Ibrahim. Pasien sangat terbantu dengan fitur booking konsultasi online dan tampilan yang sangat elegan. Omset konsultasi online kami naik hampir 70% setelah website baru ini live!"</em> (Rating: ★★★★★)
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Fajar Pratama</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Junior Web Developer (Alumni Training) - PT Telkom Digital Solusi</span>
+      </td>
+      <td>
+        <em>"Saya ikut kelas training privat Laravel bersama Kak Ibrahim dari nol banget. Penjelasannya sangat runut, santai, dan langsung praktek studi kasus proyek nyata. Berkat portofolio dari kelas ini, alhamdulillah saya langsung diterima kerja!"</em> (Rating: ★★★★★)
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Rian Kurniawan</strong><br>
+        <span style="font-size: 8.5pt; color: #64748b;">Head of Marketing - Griya Furniture Jepara</span>
+      </td>
+      <td>
+        <em>"Pelayanan pembuatan website dari Mas Ibrahim melebihi ekspektasi kami. Revisi ditanggapi ramah, integrasi payment gateway lancar, dan diajari cara memakai dashboard CMS-nya sampai paham. Mantap pol!"</em> (Rating: ★★★★★)
+      </td>
+    </tr>
+  </table>
+
+  <!-- 9. SYARAT KERJASAMA, KONTRAK & GARANSI -->
+  <h2>9. Syarat Kerjasama, Garansi & Kontak Pemesanan</h2>
+  <div class="highlight-box">
+    <p style="margin: 0;"><strong>Alur Kerjasama Profesional (SOP):</strong></p>
+    <ol style="margin: 4pt 0 6pt 16pt;">
+      <li><strong>Konsultasi & Kebutuhan Proyek:</strong> Diskusi mendalam mengenai tujuan bisnis, fitur wajib, referensi desain, dan estimasi waktu.</li>
+      <li><strong>Penerbitan Proposal & Invoice DP:</strong> Kesepakatan biaya dan tanda jadi kontrak pengerjaan (DP 40% - 50%).</li>
+      <li><strong>Fase Pengembangan & Review Berkala:</strong> Pengerjaan bertahap dengan pelaporan progress berkala setiap minggu di server staging demo.</li>
+      <li><strong>UAT (User Acceptance Testing) & Revisi:</strong> Pengujian menyeluruh oleh pihak klien hingga sesuai spesifikasi yang disepakati.</li>
+      <li><strong>Pelunasan & Serah Terima:</strong> Penyerahan seluruh source code, hak akses hosting/server, domain, dan akses admin CMS.</li>
+      <li><strong>Masa Garansi & Pendampingan:</strong> Setiap proyek website mendapatkan <strong>Garansi Bug Free & Maintenance Gratis selama 3 Bulan</strong>.</li>
+    </ol>
+  </div>
+
+  <table width="100%" style="margin-top: 14pt; border-top: 1pt solid #cbd5e1; padding-top: 10pt;">
+    <tr>
+      <td>
+        <p style="font-size: 9pt; color: #64748b; margin: 0;">
+          Dokumen resmi CV & Portofolio Profesional ini dibuat secara akurat dan sah berdasarkan rekam jejak kerja nyata.<br>
+          © 2026 Ibrahim, S.Kom. Hak Cipta Dilindungi Undang-Undang.
+        </p>
+      </td>
+      <td align="right" width="200">
+        <div style="font-size: 9.5pt; font-weight: 700; color: #1e3a8a;">Ibrahim, S.Kom.</div>
+        <div style="font-size: 8pt; color: #64748b;">Lead Web Architect & IT Trainer</div>
+      </td>
+    </tr>
+  </table>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,321 @@
+/* ========================================================
+   SLIDE BANNER CAROUSEL CSS - IBRAHIM DIGITAL PORTFOLIO
+   ======================================================== */
+
+.carousel-section {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.12);
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    min-height: 440px;
+    background: #0f172a;
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(0.98);
+    display: flex;
+    align-items: center;
+    padding: 60px 70px;
+    box-sizing: border-box;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    position: relative;
+}
+
+/* Background Gradients & Accents for each slide */
+.slide-bg-1 {
+    background: linear-gradient(135deg, #090d16 0%, #0f172a 45%, #1e3a8a 100%);
+}
+
+.slide-bg-2 {
+    background: linear-gradient(135deg, #090d16 0%, #1e1b4b 50%, #4338ca 100%);
+}
+
+.slide-bg-3 {
+    background: linear-gradient(135deg, #090d16 0%, #0f2d3a 50%, #0284c7 100%);
+}
+
+.slide-content-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 0.9fr;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.slide-text-col {
+    color: #ffffff;
+}
+
+.slide-badge-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #67e8f9;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 18px;
+}
+
+.slide-title {
+    font-size: 2.7rem;
+    font-weight: 800;
+    line-height: 1.18;
+    color: #ffffff;
+    margin-bottom: 16px;
+    letter-spacing: -0.8px;
+}
+
+.slide-title .highlight-gradient {
+    background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.slide-desc {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    line-height: 1.65;
+    margin-bottom: 26px;
+    max-width: 580px;
+}
+
+.slide-cta-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.btn-carousel-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 26px;
+    background: var(--accent-gradient);
+    color: #ffffff;
+    border-radius: var(--radius-sm);
+    font-size: 0.95rem;
+    font-weight: 700;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
+    transition: var(--transition);
+}
+
+.btn-carousel-primary:hover {
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.6);
+    transform: translateY(-3px);
+}
+
+.btn-carousel-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 24px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border-radius: var(--radius-sm);
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-carousel-secondary:hover {
+    background: rgba(255, 255, 255, 0.16);
+    transform: translateY(-2px);
+}
+
+/* Slide Graphic / Card Visual */
+.slide-graphic-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.graphic-card-mockup {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-md);
+    padding: 24px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 380px;
+    transform: perspective(800px) rotateY(-6deg) rotateX(4deg);
+    transition: var(--transition);
+}
+
+.graphic-card-mockup:hover {
+    transform: perspective(800px) rotateY(0deg) rotateX(0deg);
+}
+
+.mockup-header-dots {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.mockup-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.mockup-dot.red { background: #ef4444; }
+.mockup-dot.yellow { background: #f59e0b; }
+.mockup-dot.green { background: #10b981; }
+
+.mockup-icon-glow {
+    font-size: 3.5rem;
+    color: #38bdf8;
+    margin-bottom: 14px;
+    display: inline-block;
+    filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.5));
+}
+
+.mockup-stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.mockup-stat-item {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mockup-stat-num {
+    color: #38bdf8;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.mockup-stat-label {
+    color: #94a3b8;
+    font-size: 0.75rem;
+}
+
+/* Controls (Next, Prev, Dots) */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    z-index: 10;
+    transition: var(--transition);
+    backdrop-filter: blur(8px);
+}
+
+.carousel-btn:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+    box-shadow: 0 0 20px var(--primary-glow);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-btn.prev-btn { left: 20px; }
+.carousel-btn.next-btn { right: 20px; }
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.indicator-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.indicator-dot.active {
+    width: 32px;
+    background: #38bdf8;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
+}
+
+/* Responsive Carousel */
+@media (max-width: 992px) {
+    .carousel-slide {
+        padding: 40px 30px;
+    }
+    .slide-content-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .slide-graphic-col {
+        display: none;
+    }
+    .slide-title {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-container {
+        min-height: 480px;
+    }
+    .carousel-slide {
+        padding: 30px 20px;
+    }
+    .slide-title {
+        font-size: 1.7rem;
+    }
+    .carousel-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 0.9rem;
+    }
+    .carousel-btn.prev-btn { left: 10px; }
+    .carousel-btn.next-btn { right: 10px; }
+}
+
